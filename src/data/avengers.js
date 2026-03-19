@@ -1,64 +1,74 @@
 const avengers = [
   {
-    id: 1,
     name: "Iron Man",
-    image: "/ironman.jpg",
-    description: "Genius billionaire with advanced armor suit."
+    img: "/ironman.jpg",
+    description:
+      "A genius billionaire with advanced armor suit. He uses cutting-edge technology and intelligence to fight enemies and protect the world.",
+    background: "linear-gradient(135deg, #1a1a1a, #b30000)",
   },
   {
-    id: 2,
     name: "Thor",
-    image: "/thor.jpg",
-    description: "God of Thunder wielding Mjolnir."
+    img: "/thor.jpg",
+    description:
+      "God of Thunder wielding Mjolnir. Thor controls lightning and possesses immense strength and durability.",
+    background: "linear-gradient(135deg, #0a0f2c, #1e3c72)",
   },
   {
-    id: 3,
     name: "Hulk",
-    image: "/hulk.jpg",
-    description: "Unstoppable strength and rage."
+    img: "/hulk.jpg",
+    description:
+      "An unstoppable force with limitless strength. The angrier he gets, the stronger he becomes.",
+    background: "linear-gradient(135deg, #0d3b1f, #00ff88)",
   },
   {
-    id: 4,
     name: "Captain America",
-    image: "/captain.png",
-    description: "Super soldier with vibranium shield."
+    img: "/captain.png",
+    description:
+      "A super soldier with unmatched leadership and shield mastery. Symbol of courage and justice.",
+    background: "linear-gradient(135deg, #0a0f2c, #3b5998)",
   },
   {
-    id: 5,
     name: "Spider-Man",
-    image: "/spiderman.jpg",
-    description: "Agile hero with spider abilities."
+    img: "/spiderman.jpg",
+    description:
+      "A young hero with spider-like abilities including agility, web-slinging, and quick reflexes.",
+    background: "linear-gradient(135deg, #2c0a0a, #ff0000)",
   },
   {
-    id: 6,
     name: "Black Widow",
-    image: "/black-widow.jpg",
-    description: "Expert spy and combat specialist."
+    img: "/black-widow.jpg",
+    description:
+      "Highly skilled spy and combat expert with unmatched agility and intelligence.",
+    background: "linear-gradient(135deg, #000000, #660000)",
   },
   {
-    id: 7,
     name: "Hawkeye",
-    image: "/Hawkeye.jpg",
-    description: "Master archer with unmatched precision."
+    img: "/Hawkeye.jpg",
+    description:
+      "Master archer with perfect aim and precision in every shot.",
+    background: "linear-gradient(135deg, #1a1a1a, #660066)",
   },
   {
-    id: 8,
     name: "Doctor Strange",
-    image: "/Doctor-Strange.jpg",
-    description: "Master of mystic arts."
+    img: "/Doctor-Strange.jpg",
+    description:
+      "Master of mystic arts capable of bending time and space.",
+    background: "linear-gradient(135deg, #220a2c, #6e1f7c)",
   },
   {
-    id: 9,
     name: "Scarlet Witch",
-    image: "/Scarlet-Witch.jpg",
-    description: "Powerful reality-warping abilities."
+    img: "/Scarlet-Witch.jpg",
+    description:
+      "Powerful sorceress with reality-warping abilities.",
+    background: "linear-gradient(135deg, #2c0a0a, #ff3366)",
   },
   {
-    id: 10,
     name: "Black Panther",
-    image: "/Black-Panther.jpg",
-    description: "King of Wakanda with enhanced strength."
-  }
+    img: "/Black-Panther.jpg",
+    description:
+      "King of Wakanda with enhanced strength, agility, and advanced technology.",
+    background: "linear-gradient(135deg, #000000, #333333)",
+  },
 ];
 
 export default avengers;

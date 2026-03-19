@@ -1,13 +1,11 @@
-import Navbar from "./components/Navbar";
-import HeroSlider from "./components/HeroSlider";
-import CharacterDetails from "./components/CharacterDetails";
+import Hero from "./components/Hero";
+import Slider from "./components/Slider";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <HeroSlider />
-      <CharacterDetails />
+      <Hero />   {/* Page 1 */}
+      <Slider /> {/* Page 2 */}
     </>
   );
 }
