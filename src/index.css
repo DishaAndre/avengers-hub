@@ -2,5 +2,10 @@ body {
   margin: 0;
   background: linear-gradient(to right, #000000, #1c1c1c);
   color: white;
-  font-family: Arial;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 2px;
 }

@@ -7,6 +7,7 @@ function HeroSlider() {
       {avengers.map((hero) => (
         <div className="slide" key={hero.id}>
           <img src={hero.image} alt={hero.name} />
+          <h3>{hero.name}</h3>
         </div>
       ))}
     </div>
