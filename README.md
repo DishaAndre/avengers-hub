@@ -19,14 +19,21 @@ A interactive web application built using React, inspired by a character showcas
 src/
  ├── components/
  │     ├── Navbar.jsx
- │     ├── HeroSlider.jsx
- │     ├── CharacterDetails.jsx
+ │     ├── Hero.jsx
+ │     ├── Slider.jsx
  │
  ├── data/
  │     └── avengers.js
  │
  ├── styles/
  │     └── slider.css
+ │     └── hero.cs  
+ │     └── navbar.css
+ ├── App.jsx
+ ├── index.css
+ ├── main.jsx
+ ├── .gitignore
+ ├── README.md
 ```
 
 ---
