@@ -19,10 +19,15 @@ const Hero = () => {
         {repeated.map((hero, i) => (
           <motion.div className="hero-card" key={i}>
             <img src={hero.img} alt={hero.name} />
-            <div className="hero-name">{hero.name}</div> 
+            <div className="hero-name">{hero.name}</div>
           </motion.div>
         ))}
       </motion.div>
+
+      <div className="scroll-indicator">
+        ↓ Scroll up
+      </div>
+
     </div>
   );
 };
