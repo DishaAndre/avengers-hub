@@ -1,0 +1,27 @@
+.slider {
+  display: flex;
+  overflow-x: auto;
+  height: 80vh;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slide {
+  min-width: 300px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.slide img {
+  height: 400px;
+  transition: transform 0.3s;
+}
+
+.slide img:hover {
+  transform: scale(1.1);
+}
