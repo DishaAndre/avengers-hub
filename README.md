@@ -29,11 +29,6 @@ src/
  │     └── slider.css
  │     └── hero.cs  
  │     └── navbar.css
- ├── App.jsx
- ├── index.css
- ├── main.jsx
- ├── .gitignore
- ├── README.md
 ```
 
 ---
